@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .d1 {
+            width: 100%;
+            height: 100vh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .biography {
+            width: 100%;
+            height: 100%;
+            background-image: url(images/cr72.jpg);
+            /* background-position: center; */
+            background-size: cover;
+        }
+
+        .nav {
+            width: 100%;
+            height: 20%;
+        }
+
+        nav {
+
+            /* padding: 25px; */
+            padding-left: 100px;
+            margin-top: 25px;
+            margin-left: 25px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* background-color: pink; */
+            position: absolute;
+            top: 5;
+            left: 5;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: center;
+        }
+
+        ul {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+
+        }
+
+        .h1 {
+            width: 200px;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            background-color: rgb(255, 255, 255);
+        }
+
+        nav li {
+            margin-left: 20px;
+            padding: 10px;
+            font-size: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        h2{
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stats {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .stats1 {
+            width: 50%;
+            height: 80%;
+            text-shadow: -6px 1px 9px rgb(54, 23, 23);
+            ;
+            display: flex;
+            /* background-color: azure; */
+            opacity: 0.9;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .table-content {
+            opacity: 0.9;
+            /* border: solid 2px black;
+            border-radius: 20px; */
+        }
+
+        table {
+            color: white;
+            padding: 20px;
+            padding-top: 0;
+            font-size: 40px;
+            border-collapse: separate;
+            /* important */
+            border-spacing: 30px 20px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        th {
+            margin-left: 20px;
+
+
+        }
+
+        td {
+            /* color: rgb(79, 79, 255); */
+            font-weight: bold;
+        }
+
+        .stats2 {
+
+            width: 50%;
+            height: 80%;
+            padding: 20px;
+            margin: 80px;
+            margin: left;
+            text-shadow: -6px 1px 9px rgb(54, 23, 23);
+            top: 0;
+            display: flex;
+            /* background-color: azure; */
+            /* opacity: 0.9; */
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .stats2 table {
+            margin: 10px;
+            font-size: 15px;
+
+        }
+
+        .stats2 th {
+            width: 200px;
+            padding: 10px;
+            border-radius: 20px;
+            /* font-weight: bold; */
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">
+        <div class="biography">
+            <div class="nav">
+                <nav>
+                    <div class="content">
+                        <h1 class="h1">MENU</h1><br>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <!-- <li><a href="biography.html">Biography</a></li> -->
+                            <li><a href="stats.html">STATs</a></li>
+                            <li><a href="achivements.html">Achivements</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="stats">
+                <div class="stats1">
+                    <div class="table-content">
+                        <h2>TOTAL</h2>
+                        <table>
+                            <tr>
+                                <th>GOALS</th>
+                                <th>ASSIST</th>
+                                <th>MAtches</th>
+                            </tr>
+                            <tr>
+                                <td>935</td>
+                                <td>250-285</td>
+                                <td>1280+</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <th>Inter. Goals</th>
+                                <th>HATRICK</th>
+                            </tr>
+                            <tr>
+                                <td>130</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="stats2">
+                    <br><br>
+                    <table >
+                        <tr> </tr>
+                        <tr>
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+
+                        <!-- Club Goals -->
+                        <tr>
+                            <td rowspan="5">Club Goals</td>
+                            <td>Sporting CP: 5</td>
+                        </tr>
+                        <tr>
+                            <td>Manchester United: 145</td>
+                        </tr>
+                        <tr>
+                            <td>Real Madrid: 450</td>
+                        </tr>
+                        <tr>
+                            <td>Juventus: 101</td>
+                        </tr>
+                        <tr>
+                            <td>Al-Nassr: 68+</td>
+                        </tr>
+
+                        <!-- Other Achievements -->
+                        <tr>
+                            <td>Ballon d’Or Wins</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Champions League Titles</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Major International Titles</td>
+                            <td>Euro 2016, Nations League 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Career Hat-tricks</td>
+                            <td>63+</td>
+                        </tr>
+                        <tr>
+                            <td>Trophies Won</td>
+                            <td>30+ major titles</td>
+                        </tr>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .d1 {
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        .news {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            background-color: rgb(26, 6, 6);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        h1 {
+            width: 200px;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .block1 {
+            width: 25%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-image: url(images/wp1827176-cristiano-ronaldo-hd-wallpapers.jpg); */
+            background-position: center;
+            background-size: cover;
+        }
+
+        .block2 {
+            width: 35%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-size: cover;
+
+        }
+
+        .block2-1 {
+            width: 100%;
+            height: 50%;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        .block2-2 {
+            width: 100%;
+            height: 50%;
+            background-color: white;
+        }
+
+        .block2-1,
+        .block2-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .image {
+            width: 50%;
+            height: 100%;
+            background-image: url(images/cr72.jpg);
+            background-position: center;
+            background-size: cover;
+            transition: 2s ease ease-in-out;
+        }
+
+        .info {
+            width: 50%;
+            height: 100%;
+            background-color: white;
+            /* text-align: justify; */
+            padding: 15px;
+            border-radius: 10px;
+            opacity: 0.9;
+            overflow: auto;
+        }
+
+        h3 {
+            color: rgb(5, 5, 54);
+        }
+
+        .block3 {
+            width: 35%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .block3-1 {
+            width: 100%;
+            height: 50%;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        .block3-2 {
+            width: 100%;
+            height: 50%;
+            background-color: white;
+        }
+
+        .block3-1,
+        .block3-2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .image:hover {
+            transform: scale(0.9);
+        }
+
+        nav {
+            width: 20%;
+            height: 80vh;
+            padding: 25px;
+            padding-left: 100px;
+            margin-top: 25px;
+            margin-left: 25px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* background-color: pink; */
+            position: absolute;
+            top: 5;
+            left: 5;
+        }
+
+        ul {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            list-style: none;
+
+        }
+
+        nav li {
+            font-size: 30px;
+            line-height: 53px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">
+        <nav>
+            <div class="content">
+                <h1>MENU</h1><br>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <!-- <li><a href="biography.html">Biography</a></li> -->
+                    <li><a href="stats.html">STATs</a></li>
+                    <li><a href="achivements.html">Achivements</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="news">
+            <div class="block1">
+                <!-- <div class="info"
+                 style="width: 80%;
+                 height: 60%;
+                 margin-top: 250px;">
+                            <h3>INTER MIAMI PLAYS FOR A SPOT IN THE LEAGUES CUP FINAL A...</h3><br>
+                            <p>Inter Miami will play the Leagues Cup semifinals this Wednesday against Orlando at Chase Stadium. The Miami team aims to […]</p>
+                    </div> -->
+            </div>
+            <div class="block2">
+                <div class="block2-1">
+                    <div class="image">
+
+                    </div>
+                    <div class="info">
+                        <h3>Ronaldo Leads Al‑Nassr to the King’s Cup Final with a Brace</h3>
+                        <p>In the King’s Cup semifinal, Cristiano Ronaldo delivered a performance reminiscent of
+                            Messi’s: he scored two crucial goals to oust Al‑Khaleej in a 3–1 win </p>
+                    </div>
+                </div>
+                <div class="block2-2">
+                    <div class="image" style="background-image: url(images/R.jpeg);">
+
+                    </div>
+                    <div class="info">
+                        <h3>Ronaldo Sends Al‑Nassr to the Arab Club Champions Cup Final</h3><br>
+                        <p>In the Arab Club Champions Cup semifinal versus Al‑Shorta back in 2023, Ronaldo was decisive
+                            once again</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block3">
+                <div class="block3-1">
+                    <div class="image " style="background-image: url(images/2340742.jpg)">
+
+                    </div>
+                    <div class="info">
+                        <h3>Ronaldo Assists the Goal That Wins a Final Spot in the Saudi Super Cup</h3><br>
+                        <p>During the Saudi Super Cup semifinals, Ronaldo played a key role in sending Al‑Nassr to the
+                            final by assisting João Félix to score.</p>
+                    </div>
+                </div>
+                <div class="block3-2">
+                    <div class="image" style="background-image: url(images/cr71.jpg);">
+
+                    </div>
+                    <div class="info">
+                        <h3>Cristiano Ronaldo becomes first player in history to hit career landmark but curse continues
+                        </h3><br>
+                        <p>His goal in the Saudi Arabian cup final for Al-Nassr against Al-Ahli was his 100th since
+                            moving to the Middle East.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
